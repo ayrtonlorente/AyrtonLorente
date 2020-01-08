@@ -1,0 +1,139 @@
+body {
+    background-color: #1c2230;
+}
+
+header nav div ul {
+    margin-left: auto;
+}
+
+header nav a img {
+    width: 100px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+/*=========================
+Seccion intro
+=========================*/
+section#intro {
+    margin: 0 auto;
+    max-width: 900px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section#intro img {
+    width: 100%;
+}
+
+
+/*=========================
+Seccion servicios
+=========================*/
+
+section#servicios {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+img.iconos {
+    width: 83px;
+    height: 80px;
+}
+
+
+/*=========================
+Seccion productiva
+=========================*/
+
+section#productiva {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section#productiva article {
+    text-align: center;
+}
+
+section#productiva article a {
+    text-decoration: underline;
+    color: turquoise;
+}
+
+section#productiva > * {
+    width: 50%;
+}
+
+
+@media (max-width: 576px) {
+    section#productiva > * {
+        width: 100%;
+    }
+}
+
+
+/*=========================
+Seccion comentarios
+=========================*/
+
+section#comentarios {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section#comentarios div div article  {
+    background-color: #21293c;
+}
+
+section#comentarios div div article p {
+    font-size: 0.7rem;
+    margin-top: 16px;
+}
+
+section#comentarios div div article > * {
+    color: white;
+}
+
+section#comentarios div div article div img {
+    
+        width:40px;
+        height:40px;
+        border-radius:20px;
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+        border: grey 1px solid;
+}
+
+section#comentarios div div article div  {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+section#comentarios div div article div div p.datos {
+    font-size: 10px;
+    width: 100%;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+section#comentarios div div article div > * {
+    width: 50%;
+}
